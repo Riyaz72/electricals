@@ -413,9 +413,9 @@ textarea.input {
 \*----------------------------*/
 
 #top-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #1E1F29;
+  padding-top: 15px;
+  /* padding-bottom: 10px;
+  background-color: #1E1F29; */
 }
 
 .header-links li {
@@ -451,8 +451,10 @@ textarea.input {
   background-color: #15161D;
 }
 
-.header-logo {
-  float: left;
+.header-logo img {
+  width: 100% !important;
+  max-width: 100% !important;
+	height: 90px; ;				      
 }
 
 .header-logo .logo img {
@@ -2017,7 +2019,7 @@ textarea.input {
 }
 
 .footer .footer-title {
-  color: black;
+  color: #4e1616;
   text-transform: uppercase;
   font-size: 18px;
   margin: 0px 0px 30px;
